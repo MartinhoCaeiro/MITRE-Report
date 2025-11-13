@@ -1,0 +1,340 @@
+\documentclass[a4paper]{article}
+% Pacotes necessários
+\usepackage[portuguese]{babel}
+\usepackage[backend=biber, style=apa, citestyle=apa, language=portuguese]{biblatex}
+\usepackage{csquotes}
+\addbibresource{Recursos/referencias.bib}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{siunitx} % Required for alignment
+\sisetup{
+  round-mode          = places, % Rounds numbers
+  round-precision     = 2, % to 2 places
+}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{karnaugh-map}
+\usepackage[section]{placeins}
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{titling}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{indentfirst}
+\usepackage{array}
+\usepackage{soul}
+\usepackage{afterpage}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\onehalfspacing
+
+
+% Comando para criar uma página vazia
+\newcommand\myemptypage{
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{-1}
+    \newpage
+}
+
+% Página de título principal
+\newcommand{\firsttitlepage}{
+    \begin{titlepage}
+        \centering
+        
+        % Logos superior
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=6cm]{Recursos/Logos/LOGO_IPB.png} % Substitua pelo caminho da imagem
+            \vspace{0.5cm}
+        \end{figure}
+
+        % Informações da instituição
+        \large\textbf{INSTITUTO POLITÉCNICO DE BEJA} \\
+        \large\textbf{Escola Superior de Tecnologia e Gestão} \\
+        \large\textbf{Mestrado em Engenharia de Segurança Informática} \\
+        \large\textbf{Fundamentos de Cibersegurança} \\
+        
+        \vspace{2cm}
+        
+        % Título do projeto
+        {\Huge \textbf{Trabalho Individual}} \\
+        
+        \vspace{1.5cm}
+        
+        % Autores
+        \large Martinho José Novo Caeiro - 23917 \\
+        
+        \vfill
+        
+        % Logo inferior
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=6cm]{Recursos/Logos/IPBejaESTIG.jpg} % Substitua pelo caminho da imagem
+        \end{figure}
+        
+        \vspace{1cm}
+        
+        % Local e data
+        {\large Beja, novembro de 2025}
+    \end{titlepage}
+}
+
+\newcommand{\secondtitlepage}{
+    \begin{titlepage}
+        \centering
+        \vspace*{1cm}
+        
+        % Informações da instituição
+        \large\textbf{INSTITUTO POLITÉCNICO DE BEJA} \\
+        \large\textbf{Escola Superior de Tecnologia e Gestão} \\
+        \large\textbf{Mestrado em Engenharia de Segurança Informática} \\
+        \large\textbf{Fundamentos de Cibersegurança} \\
+        
+        \vspace{2cm}
+        
+        % Título do projeto
+        {\Huge \textbf{Trabalho Individual}} \\
+        
+        \vspace{1.5cm}
+        
+        % Autores
+        \large Martinho José Novo Caeiro - 23917 \\
+
+        \vspace{2cm}
+
+        % Orientador
+        \large Orientadores: Rui Miguel Silva \& Rogério Matos Bravo \\
+        
+        \vfill
+        
+        % Local e data
+        {\large Beja, novembro de 2025}
+    \end{titlepage}
+}
+
+\begin{document}
+
+
+\pagenumbering{gobble} % Oculta numeração da página
+
+% Primeira página de título
+\firsttitlepage
+
+\secondtitlepage
+
+
+% Abstract
+\section*{\LARGE\textbf{\textit{Resumo}}}
+
+Este relatório descreve o desenvolvimento de uma aplicação de segurança informática, implementada em Python,
+uma linguagem de programação dinâmica. O objetivo é explorar conceitos fundamentais de segurança
+e demonstrar a aplicação prática desses conceitos. Esta aplicação é desenvolvida no âmbito da unidade curricular
+de Fundamentos de Cibersegurança \cite{pagfc}.
+
+\vspace{1cm}
+% Keywords
+\textbf{Keywords:} mitre, att\&ck, segurança informática, fundamentos de cibersegurança
+\newpage
+%--------------------------------------------------------------------------------------------------------------------------------------
+
+\section*{\LARGE\textbf{\textit{Abstract}}}
+
+This report describes the development of a cybersecurity application implemented in Python,
+a dynamic programming language. The goal is to explore fundamental security concepts and demonstrate their practical application.
+This application is developed within the scope of the Fundamentals of Cybersecurity course \cite{pagfc}.
+
+\vspace{1cm}
+% Keywords
+\textbf{Keywords:} mitre, att\&ck, cybersecurity, fundamentals of cybersecurity
+
+
+\renewcommand{\contentsname}{Índice}       % Título do sumário
+\renewcommand{\listfigurename}{Índice de Figuras} % Título da lista de figuras
+
+% Início do conteúdo do relatório
+\newpage
+\doublespacing
+\tableofcontents
+\listoffigures
+\doublespacing
+
+\newpage
+\pagenumbering{arabic}
+
+\section{Introdução}\label{intro}
+Este relatório apresenta o trabalho individual realizado para a unidade curricular de
+\textit{Fundamentos de Cibersegurança} do \textit{Mestrado em Engenharia de Segurança Informática} do
+\textit{Instituto Politécnico de Beja}. O objetivo principal é a análise de conceitos e normas
+(\textit{MITRE/ATT\&CK}, \textit{ISO 27000} e legislação nacional relevante).
+
+O relatório foi elaborado de acordo com o \textit{"Manual de Normas
+	Obrigatórias para a Elaboração de Documentos Institucionais e Trabalhos Académicos"}
+do \textit{Instituto Politécnico de Beja}.
+
+Em termos de estrutura, o \textbf{Capítulo I (Grupo I)} aborda a área escolhida do MITRE,
+a análise detalhada de uma campanha do ATT\&CK e a comparação de técnicas entre matrizes;
+o \textbf{Capítulo II (Grupo II)} discute os pilares da segurança da informação,
+as três dimensões principais e o conceito de \textbf{‘Governança’}, com ligação à
+\textbf{Resolução do Conselho de Ministros}, quando pertinente.
+
+A bibliografia e as fontes consultadas são apresentadas no final do documento e 
+o relatório será disponibilizado no repositório GitHub (\cite{github}).\\\\
+
+%---------------------------------------------------------------------------------------------------------------------------
+\section{Teoria}\label{theory}
+\subsection{MITRE}
+O MITRE (\cite{mitre}) é uma organização sem fins lucrativos que opera centros de pesquisa e desenvolvimento financiados pelo governo dos Estados Unidos.
+
+\subsection{Att\&ck}
+O ATT\&CK (\cite{attack}) é um framework desenvolvido pelo MITRE que documenta as táticas e técnicas utilizadas por adversários cibernéticos.
+
+\subsection{Segurança da Informação}
+A Segurança da Informação refere-se à prática de proteger informações e sistemas de informação contra acesso não autorizado, uso, divulgação, interrupção, modificação ou destruição.
+Envolve a implementação de políticas, procedimentos e tecnologias para garantir a confidencialidade, integridade e disponibilidade dos dados.
+
+%---------------------------------------------------------------------------------------------------------------------------
+\newpage
+\section{Grupo I}
+O presente capítulo procede à análise detalhada de uma das áreas de cibersegurança do projecto \textit{MITRE}, tendo sido escolhida a opção \textbf{c)} - \textit{Cyber Intelligence Threat Analysis}.
+O objetivo desta secção é reproduzir e aprofundar a abordagem apresentada em aula para a área da Gestão de Vulnerabilidades, adaptando-a ao domínio da \textit{Threat Analysis}, com ênfase nos sistemas de classificação, nas suas inter-relações e nas implicações operacionais para a deteção e mitigação de ameaças.
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Cyber Intelligence Threat Analysis}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\newpage
+\subsection{}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\newpage
+\subsection{}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\newpage
+\section{Grupo II}
+O presente capítulo tem como objetivo abordar os principais conceitos estruturantes da \textbf{Segurança da Informação}, tal como definidos no âmbito da unidade curricular de \textit{Fundamentos de Cibersegurança}.
+São analisados os pilares, vetores e princípios de governança que sustentam a proteção da informação e a gestão de riscos no contexto das organizações modernas, com particular atenção às normas da família \textit{ISO/IEC 27000} e à legislação nacional aplicável.
+
+%---------------------------------------------------------------------------------------------------------------------------
+
+\subsection{Os Quatro Pilares da Segurança da Informação}
+A segurança da informação, de acordo com uma visão abrangente e integrada, assenta em quatro pilares fundamentais: \textbf{Tecnologias}, \textbf{Pessoas}, \textbf{Organizações} e \textbf{Segurança Física}. Estes elementos, interdependentes entre si, formam a base sobre a qual as normas da família \textit{ISO/IEC 27000} (incluindo as versões mais recentes da \textit{ISO/IEC 27001:2022} e \textit{ISO/IEC 27002:2022}) estruturam a gestão da segurança da informação.
+
+\subsubsection{Tecnologias}
+Este pilar corresponde ao conjunto de ferramentas, sistemas e mecanismos técnicos implementados para proteger a informação. Inclui medidas como o controlo de acessos, a encriptação, a gestão de vulnerabilidades, os sistemas de deteção e prevenção de intrusões, bem como políticas de \textit{backup} e recuperação.
+O foco é garantir que os recursos tecnológicos oferecem \textbf{confidencialidade}, \textbf{integridade} e \textbf{disponibilidade}, de acordo com os objetivos organizacionais e as boas práticas definidas pela \textit{ISO/IEC 27002:2022}.
+
+\subsubsection{Pessoas}
+As pessoas representam simultaneamente o \textbf{maior ativo} e o \textbf{elo mais vulnerável} da segurança da informação. A consciencialização, a formação contínua e a definição clara de responsabilidades são essenciais para reduzir o risco humano.
+De acordo com as normas ISO, a cultura organizacional deve promover comportamentos seguros e uma compreensão clara das políticas internas de segurança, prevenindo negligência, erro humano ou engenharia social.
+
+\subsubsection{Organizações (processos e procedimentos)}
+Este pilar abrange a estrutura organizacional, os processos e os procedimentos formais que sustentam o \textbf{Sistema de Gestão da Segurança da Informação (SGSI)}.
+Inclui políticas, planos de gestão de incidentes, auditorias, avaliação de riscos e conformidade com a legislação (como o RGPD e a legislação nacional aplicável).
+A norma \textit{ISO/IEC 27001:2022} reforça este pilar ao definir requisitos para a implementação e manutenção de controlos de segurança eficazes, sustentados em documentação e melhoria contínua.
+
+\subsubsection{Segurança Física}
+A segurança física visa proteger as infraestruturas, equipamentos e suportes de informação contra ameaças físicas — como acesso não autorizado, incêndios, inundações ou sabotagem.
+Abrange o controlo de acessos a edifícios, a vigilância, a gestão ambiental e a proteção dos dispositivos de armazenamento.
+Sem segurança física, qualquer sistema técnico ou processo organizacional fica vulnerável, comprometendo os restantes pilares.
+
+\subsubsection{Pilar mais importante}
+Apesar da sua interdependência, o \textbf{pilar das pessoas} é frequentemente considerado o mais determinante.
+As tecnologias, políticas e infraestruturas só são eficazes se forem corretamente compreendidas e aplicadas pelos utilizadores. O comportamento humano é o fator crítico que pode tanto reforçar como comprometer os restantes pilares, tornando a formação e a sensibilização indispensáveis à eficácia global da segurança da informação.
+
+\subsubsection{Ligação à Intervenção Digital Forense}
+A \textbf{intervenção digital forense} — responsável pela recolha, preservação e análise de evidências digitais — relaciona-se diretamente com vários destes pilares, mas de forma especial com as \textbf{tecnologias} e as \textbf{organizações (processos e procedimentos)}.
+
+\begin{itemize}
+	\item \textbf{Tecnologias:} a recolha e preservação de evidências requerem ferramentas técnicas adequadas, como software de aquisição forense e mecanismos de hashing, que asseguram a integridade dos dados.
+	\item \textbf{Organizações:} a existência de procedimentos normalizados (cadeia de custódia, registos de auditoria, políticas de acesso e conservação) garante que a prova digital é admissível e fidedigna.
+	\item \textbf{Pessoas:} os peritos forenses e os técnicos de segurança devem agir de forma ética e tecnicamente rigorosa, assegurando a imparcialidade e a rastreabilidade das suas ações.
+\end{itemize}
+
+Assim, a intervenção digital forense concretiza a aplicação prática dos pilares da segurança da informação, garantindo que a gestão de incidentes e a produção de prova digital são realizadas de forma segura, controlada e conforme às normas internacionais.
+
+%---------------------------------------------------------------------------------------------------------------------------
+\newpage
+\subsection{Os Três Vetores da Segurança da Informação}
+A segurança da informação pode ser analisada segundo três vetores principais, também designados como as \textbf{três dimensões operacionais da segurança}: \textbf{Segurança Física}, \textbf{Segurança Humana} e \textbf{Segurança Lógica}.
+Estes vetores formam uma estrutura integrada que assegura a proteção da informação em todas as suas formas — material, humana e tecnológica — e encontram correspondência direta no enquadramento da \textbf{Segurança da Informação Classificada (SIC)}, conforme definido pela \textbf{Resolução do Conselho de Ministros n.º 5/1990}, que aprova a \textbf{SEGNAC4} (Sistema de Segurança Nacional de Classificação, Codificação e Salvaguarda de Informação Classificada).
+
+\subsubsection{Segurança Física}
+A segurança física tem como objetivo proteger as instalações, equipamentos e suportes de informação contra ameaças de natureza física, acidental ou intencional.
+Inclui medidas como o controlo de acessos a edifícios e zonas restritas, vigilância eletrónica, barreiras físicas, proteção ambiental (contra incêndios, inundações, etc.) e a salvaguarda de documentos em cofres ou armários classificados.
+No contexto da \textbf{SEGNAC4}, a segurança física é indispensável para garantir que a informação classificada, em suporte material, não é acedida, copiada ou destruída sem autorização.
+
+\subsubsection{Segurança Humana}
+A segurança humana refere-se à gestão dos riscos associados ao fator humano, reconhecendo que as pessoas podem ser tanto a maior defesa como a maior vulnerabilidade da segurança da informação.
+Abrange procedimentos de seleção, credenciação e formação de pessoal, garantindo que apenas indivíduos devidamente autorizados e conscientes das suas responsabilidades têm acesso a informação classificada.
+A \textbf{SEGNAC4} estabelece regras específicas sobre credenciação de segurança, dever de sigilo e responsabilidade disciplinar ou penal em caso de violação das normas de proteção da informação classificada.
+
+\subsubsection{Segurança Lógica}
+A segurança lógica, também designada \textbf{segurança tecnológica ou digital}, incide sobre os sistemas informáticos e redes de comunicação.
+Compreende o conjunto de medidas destinadas a proteger a informação processada ou armazenada em formato eletrónico, incluindo autenticação, controlo de acessos, encriptação, gestão de vulnerabilidades, auditorias de segurança e registos de atividade.
+Na \textbf{SIC}, a segurança lógica é essencial para assegurar que a informação classificada mantida em sistemas digitais cumpre os níveis de proteção definidos, prevenindo o acesso não autorizado ou a exfiltração de dados.
+
+\subsubsection{Ligação à SEGNAC4}
+A \textbf{Resolução do Conselho de Ministros n.º 5/1990} define o modelo nacional de proteção da informação classificada, estabelecendo que a segurança deve ser assegurada de forma global, integrando os três vetores mencionados.
+A eficácia da \textbf{Segurança da Informação Classificada} depende, assim, da articulação entre as dimensões física, humana e lógica - cada uma cobrindo diferentes fases e contextos da proteção da informação.
+Quando devidamente coordenadas, estas três dimensões garantem a \textbf{confidencialidade}, \textbf{integridade} e \textbf{disponibilidade} da informação classificada, em conformidade com as exigências nacionais e internacionais de segurança.
+
+
+%---------------------------------------------------------------------------------------------------------------------------
+\newpage
+\subsection{O conceito de ‘Governança’}
+
+O conceito de \textbf{Governança} da Segurança da Informação e da Cibersegurança, conforme apresentado no âmbito deste curso e nas normas da família \textit{ISO/IEC 27001}, representa o conjunto de práticas, responsabilidades e processos que asseguram que a gestão da segurança é conduzida de forma estruturada, mensurável e alinhada com os objetivos estratégicos da organização.
+
+Mais especificamente, os controlos \textbf{8.15} e \textbf{8.16} da \textit{ISO/IEC 27001:2022} estabelecem as bases da governança, determinando que as organizações devem \textbf{monitorizar, rever e melhorar continuamente} os mecanismos de segurança, assegurando que as medidas implementadas permanecem eficazes e adequadas ao contexto operacional e às ameaças em evolução.
+
+\subsubsection{Conteúdo e Aplicação Prática}
+
+A \textbf{Governança da Segurança da Informação} implica:
+\begin{itemize}
+	\item \textbf{Definir a granularidade dos acessos e dos “assets críticos”}, determinando níveis de privilégio e identificando os recursos cuja proteção é prioritária;
+	\item \textbf{Avaliar e testar} regularmente a eficácia dos controlos e políticas de segurança;
+	\item \textbf{Monitorizar} o comportamento dos sistemas e dos utilizadores, através de mecanismos de auditoria, registos e indicadores de desempenho;
+	\item \textbf{Testar e rever os SOP (Standard Operating Procedures)}, garantindo que os procedimentos operacionais estão atualizados, coerentes e eficazes na mitigação de riscos.
+\end{itemize}
+
+Estas atividades asseguram que a segurança da informação é gerida de forma sistemática e não meramente reativa, promovendo uma cultura de responsabilidade, conformidade e melhoria contínua.
+
+\subsubsection{Importância para a Cibersegurança e o Combate ao Cibercrime}
+No domínio da \textbf{Cibersegurança}, a Governança é essencial para transformar políticas e orientações estratégicas em práticas concretas e auditáveis.
+Permite estabelecer mecanismos de responsabilização, definir papéis claros (por exemplo, CISO, gestores de risco, auditores) e integrar a gestão da segurança com os objetivos institucionais.
+
+No \textbf{combate ao cibercrime}, a governança contribui para a capacidade de resposta organizada a incidentes, garantindo rastreabilidade, preservação de evidências digitais e cumprimento de obrigações legais — aspetos fundamentais em processos de investigação e cooperação entre entidades públicas e privadas.
+
+\subsubsection{Correspondência com a RCM n.º 41/2018}
+A \textbf{Resolução do Conselho de Ministros n.º 41/2018}, que aprova a \textbf{Estratégia Nacional de Segurança do Ciberespaço (ENSCE)}, apresenta um enquadramento convergente com o conceito de governança definido nas normas ISO.
+Ambos os documentos enfatizam:
+\begin{itemize}
+	\item A necessidade de \textbf{estruturas organizacionais de coordenação} e de \textbf{responsabilidade partilhada};
+	\item A importância da \textbf{monitorização e avaliação contínua} das políticas de segurança;
+	\item A criação de \textbf{mecanismos de supervisão e reporte} de incidentes e vulnerabilidades;
+	\item A promoção de uma \textbf{cultura de segurança} transversal ao setor público, privado e académico.
+\end{itemize}
+
+Assim, pode afirmar-se que existe uma \textbf{correspondência direta} entre o conceito de Governança, tal como definido nas normas \textit{ISO/IEC 27001:2022 (8.15/8.16)}, e os princípios orientadores da \textbf{RCM n.º 41/2018}, sendo ambos instrumentos complementares na consolidação da cibersegurança e na prevenção e combate ao cibercrime em Portugal.
+
+
+%---------------------------------------------------------------------------------------------------------------------------
+\newpage
+\section{Conclusão}\label{con}
+
+%---------------------------------------------------------------------------------------------------------------------------
+
+\newpage
+\renewcommand{\refname}{Bibliografia} % Para artigos
+\renewcommand{\bibname}{Bibliografia} % Para livros e relatórios
+\addcontentsline{toc}{section}{Bibliografia} % Adiciona a Bibliografia ao índice
+\printbibliography
+
+\end{document}
