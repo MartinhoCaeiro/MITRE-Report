@@ -3075,6 +3075,13 @@
     <bcf:citekey order="3" intorder="1">github</bcf:citekey>
     <bcf:citekey order="4" intorder="1">mitre</bcf:citekey>
     <bcf:citekey order="5" intorder="1">attack</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">secinfo</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">cita</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">ctis</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">midnighteclipse</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">colent</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">colmob</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">colics</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

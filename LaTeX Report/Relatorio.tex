@@ -173,18 +173,10 @@ Este relatório apresenta o trabalho individual realizado para a unidade curricu
 \textit{Instituto Politécnico de Beja}. O objetivo principal é a análise de conceitos e normas
 (\textit{MITRE/ATT\&CK}, \textit{ISO 27000} e legislação nacional relevante).
 
-O relatório foi elaborado de acordo com o \textit{"Manual de Normas
-	Obrigatórias para a Elaboração de Documentos Institucionais e Trabalhos Académicos"}
-do \textit{Instituto Politécnico de Beja}.
+Em termos de estrutura, o relatório organiza-se em dois blocos complementares. O \textbf{Capítulo I (Grupo I)} explora em detalhe a área seleccionada do MITRE/ATT\&CK, incluindo análise de campanhas representativas, identificação de táticas, técnicas e procedimentos (TTPs) e comparação de técnicas entre as matrizes Enterprise, Mobile e ICS. O \textbf{Capítulo II (Grupo II)} analisa os fundamentos da segurança da informação — pilares, vetores e o conceito de \textbf{Governança} — estabelecendo ligações práticas às normas \textit{ISO/IEC} e à legislação nacional quando pertinente, e propondo recomendações operacionais para deteção, mitigação, resposta a incidentes e gestão de risco.
 
-Em termos de estrutura, o \textbf{Capítulo I (Grupo I)} aborda a área escolhida do MITRE,
-a análise detalhada de uma campanha do ATT\&CK e a comparação de técnicas entre matrizes;
-o \textbf{Capítulo II (Grupo II)} discute os pilares da segurança da informação,
-as três dimensões principais e o conceito de \textbf{‘Governança’}, com ligação à
-\textbf{Resolução do Conselho de Ministros}, quando pertinente.
-
-A bibliografia e as fontes consultadas são apresentadas no final do documento e 
-o relatório será disponibilizado no repositório GitHub (\cite{github}).\\\\
+A bibliografia e as fontes consultadas são apresentadas no final do documento e
+o relatório será disponibilizado no repositório GitHub (\cite{github}).\\
 
 %---------------------------------------------------------------------------------------------------------------------------
 \section{Teoria}\label{theory}
@@ -195,25 +187,100 @@ O MITRE (\cite{mitre}) é uma organização sem fins lucrativos que opera centro
 O ATT\&CK (\cite{attack}) é um framework desenvolvido pelo MITRE que documenta as táticas e técnicas utilizadas por adversários cibernéticos.
 
 \subsection{Segurança da Informação}
-A Segurança da Informação refere-se à prática de proteger informações e sistemas de informação contra acesso não autorizado, uso, divulgação, interrupção, modificação ou destruição.
+A Segurança da Informação (\cite{secinfo}) refere-se à prática de proteger informações e sistemas de informação contra acesso não autorizado, uso, divulgação, interrupção, modificação ou destruição.
 Envolve a implementação de políticas, procedimentos e tecnologias para garantir a confidencialidade, integridade e disponibilidade dos dados.
 
 %---------------------------------------------------------------------------------------------------------------------------
 \newpage
 \section{Grupo I}
-O presente capítulo procede à análise detalhada de uma das áreas de cibersegurança do projecto \textit{MITRE}, tendo sido escolhida a opção \textbf{c)} - \textit{Cyber Intelligence Threat Analysis}.
-O objetivo desta secção é reproduzir e aprofundar a abordagem apresentada em aula para a área da Gestão de Vulnerabilidades, adaptando-a ao domínio da \textit{Threat Analysis}, com ênfase nos sistemas de classificação, nas suas inter-relações e nas implicações operacionais para a deteção e mitigação de ameaças.
-
+O presente capítulo procede à análise detalhada das áreas selecionadas do MITRE/ATT\&CK, com especial foco na transformação da informação técnica em inteligência acionável para operações de defesa. Pretende-se identificar e descrever as táticas, técnicas e procedimentos (TTPs) mais relevantes, analisar campanhas representativas e comparar técnicas entre as diferentes matrizes (Enterprise, Mobile e ICS). O capítulo integra estudos de caso, avaliação de ferramentas e recomendações práticas para deteção, mitigação e resposta a incidentes, promovendo a ligação entre a análise de ameaças e as medidas operacionais.
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Cyber Intelligence Threat Analysis}
 
-%---------------------------------------------------------------------------------------------------------------------------
-\newpage
-\subsection{}
+A área \textit{Cyber Intelligence Threat Analysis} (\cite{cita}) centra-se na recolha, organização e análise estruturada de informação sobre ameaças cibernéticas, com o objetivo de produzir \textbf{inteligência acionável} que apoie a defesa, a deteção e a resposta a incidentes. Esta análise procura compreender os adversários, as suas motivações, capacidades e métodos de ataque, permitindo antecipar comportamentos e melhorar o nível de proteção das organizações.
+
+A análise de ameaças baseia-se na identificação de grupos e atores maliciosos, no estudo das suas \textbf{táticas, técnicas e procedimentos (TTPs)}, e na correlação de indicadores de compromisso e outros artefactos de ataque. Para isso, a área utiliza várias estruturas desenvolvidas pelo MITRE, entre as quais se destacam:
+
+\begin{itemize}
+	\item \textbf{STIX} - representação estruturada de ameaças e observáveis cibernéticos.
+	\item \textbf{CVE} - identificação de vulnerabilidades conhecidas.
+	\item \textbf{CPE} - descrição de plataformas e sistemas afetados.
+	\item \textbf{CWE} - categorização de fraquezas de software.
+	\item \textbf{MAEC} - caracterização de malware.
+	\item \textbf{CAPEC} - descrição de padrões de ataque observados.
+\end{itemize}
+
+A \textit{Cyber Intelligence Threat Analysis} é fundamental para transformar dados técnicos dispersos em conhecimento útil, permitindo reforçar mecanismos de deteção, apoiar decisões de segurança e orientar a resposta a incidentes com base em evidência real. Esta área articula-se naturalmente com domínios como a partilha de informação de ameaças e a coordenação de incidentes, contribuindo para uma postura de segurança mais preventiva e informada.
 
 %---------------------------------------------------------------------------------------------------------------------------
 \newpage
-\subsection{}
+\subsection{Cyber Threat Information Sharing}
+
+A área \textit{Cyber Threat Information Sharing} (\cite{ctis}) foca-se nos processos e mecanismos utilizados para partilhar informação sobre ameaças cibernéticas entre equipas, organizações e entidades externas. O objetivo principal é aumentar a capacidade coletiva de deteção, prevenção e resposta, garantindo que os indicadores de ataque, técnicas utilizadas pelos adversários e outros elementos relevantes chegam rapidamente aos intervenientes que deles necessitam.
+
+A partilha de informação de ameaças pode incluir \textbf{IOCs} (Indicators of Compromise), padrões de comportamento observados, artefactos recolhidos em incidentes, ou relatórios de análise produzidos por equipas de \textit{Cyber Threat Intelligence}. Esta partilha deve seguir formatos estruturados e normalizados que permitam interoperabilidade e automatização.
+
+Entre os sistemas e padrões mais utilizados destacam-se:
+
+\begin{itemize}
+	\item \textbf{TAXII} - framework comunitário que define conceitos, protocolos e trocas de mensagens para partilha segura e automatizada de informação de ameaças.
+	\item \textbf{STIX} - linguagem para representar informação de ameaças de forma estruturada e interoperável.
+\end{itemize}
+
+A área \textit{Cyber Threat Information Sharing} complementa diretamente a \textit{Cyber Intelligence Threat Analysis}, uma vez que a inteligência produzida pela análise de ameaças só alcança o seu valor máximo quando é partilhada de forma eficiente e segura. Esta cooperação melhora a defesa global, reduz o tempo de resposta e promove uma postura mais colaborativa no combate ao cibercrime.
+
+%---------------------------------------------------------------------------------------------------------------------------
+\newpage
+\subsection{Campanha \textit{Operation MidnightEclipse}}
+
+A campanha \textbf{Operation MidnightEclipse - ID C0048} (\cite{midnighteclipse}) decorreu entre março e abril de 2024.
+Esta explorou a vulnerabilidade CVE-2024-3400 no módulo GlobalProtect de firewalls Palo Alto, permitindo execução remota de código com privilégios de root.
+O ator associado, identificado como UTA0218, realizou um ataque direcionado, combinando exploração de zero-day, implantação de backdoor e exfiltração de dados críticos.
+
+As técnicas e TTPs observadas incluem:
+
+\begin{itemize}
+	\item T1190 - Exploit Public-Facing Application: exploração da vulnerabilidade no firewall.
+	\item T1059.004 - Command and Scripting Interpreter: Unix Shell: execução de comandos via bash.
+	\item T1105 - Ingress Tool Transfer: download de ferramentas adicionais.
+	\item T1053.003 - Scheduled Task/Job: Cron: persistência com tarefas agendadas.
+	\item T1078.002 - Valid Accounts: Domain Accounts: uso de credenciais válidas para movimentação lateral.
+	\item T1090 - Proxy: comunicação C2 via túnel com GOST.
+\end{itemize}
+
+O software/ferramentas usadas incluiu:
+\begin{itemize}
+	\item UPSTYLE: backdoor Python para execução remota.
+	\item GOST: criação de túneis reversos para comunicação com servidores de comando e controlo.
+\end{itemize}
+
+A campanha visou roubo de credenciais, dados de configuração do firewall e movimentação lateral dentro da rede, mantendo persistência com cron jobs e backdoors. A mitigação recomendada incluiu patches do PAN-OS, monitorização de tráfego, análise de logs e recolha de evidências forenses.
+
+%---------------------------------------------------------------------------------------------------------------------------
+\newpage
+\subsection{Tática Collection}
+
+A tática \textit{Collection} descreve a recolha de dados realizada por um adversário após comprometer um sistema. Embora a tática seja comum às matrizes \textit{Enterprise}, \textit{Mobile} e \textit{ICS}, as técnicas associadas diferem significativamente devido às particularidades de cada ambiente.
+
+\subsubsection{Enterprise}
+No ambiente \textit{Enterprise - TA0009} (\cite{colent}), a recolha de dados centra-se em artefactos típicos de sistemas operativos tradicionais, como ficheiros locais, credenciais, histórico de navegação, processos, memória e dados de aplicações corporativas. As técnicas focam mecanismos amplamente presentes em sistemas Windows, Linux e macOS, refletindo um conjunto de ativos essencialmente digitais.
+
+\subsubsection{Mobile}
+Na matriz \textit{Mobile - TA0035} (\cite{colmob}), a recolha é condicionada por mecanismos de segurança próprios de dispositivos móveis, tais como \textit{sandboxing}, permissões de aplicações e acesso limitado ao sistema de ficheiros. Assim, as técnicas incidem sobre dados pessoais e de aplicações, nomeadamente localização, contactos, mensagens, fotos, sensores e dados armazenados por aplicações móveis.
+
+\subsubsection{ICS}
+No domínio \textit{ICS - TA0100} (\cite{colics}), a recolha de informação está relacionada com processos industriais e sistemas de controlo. As técnicas visam obter dados operacionais provenientes de PLCs, sensores, actuadores, sistemas SCADA e parâmetros de controlo. Estes dados são críticos para compreender e manipular processos físicos.
+
+\subsubsection{Exemplos}
+A título ilustrativo:
+\begin{itemize}
+	\item \textbf{Enterprise:} a técnica \textit{T1005 - Data from Local System} permite recolher ficheiros e credenciais armazenadas num sistema.
+	\item \textbf{Mobile:} a técnica \textit{T1409 - Access Stored Application Data} foca-se na recolha de dados de aplicações móveis, como mensagens ou bases de dados internas.
+	\item \textbf{ICS:} a técnica \textit{T0887 - Operation Information} permite ao adversário recolher dados operacionais de dispositivos industriais, como leituras de sensores ou estados de PLCs.
+\end{itemize}
+
+Estas diferenças demonstram que, embora a tática seja comum, as técnicas variam devido à natureza distinta dos ambientes e dos dados relevantes em cada matriz.
+
 
 %---------------------------------------------------------------------------------------------------------------------------
 \newpage
@@ -240,7 +307,7 @@ Inclui políticas, planos de gestão de incidentes, auditorias, avaliação de r
 A norma \textit{ISO/IEC 27001:2022} reforça este pilar ao definir requisitos para a implementação e manutenção de controlos de segurança eficazes, sustentados em documentação e melhoria contínua.
 
 \subsubsection{Segurança Física}
-A segurança física visa proteger as infraestruturas, equipamentos e suportes de informação contra ameaças físicas — como acesso não autorizado, incêndios, inundações ou sabotagem.
+A segurança física visa proteger as infraestruturas, equipamentos e suportes de informação contra ameaças físicas - como acesso não autorizado, incêndios, inundações ou sabotagem.
 Abrange o controlo de acessos a edifícios, a vigilância, a gestão ambiental e a proteção dos dispositivos de armazenamento.
 Sem segurança física, qualquer sistema técnico ou processo organizacional fica vulnerável, comprometendo os restantes pilares.
 
@@ -249,7 +316,7 @@ Apesar da sua interdependência, o \textbf{pilar das pessoas} é frequentemente 
 As tecnologias, políticas e infraestruturas só são eficazes se forem corretamente compreendidas e aplicadas pelos utilizadores. O comportamento humano é o fator crítico que pode tanto reforçar como comprometer os restantes pilares, tornando a formação e a sensibilização indispensáveis à eficácia global da segurança da informação.
 
 \subsubsection{Ligação à Intervenção Digital Forense}
-A \textbf{intervenção digital forense} — responsável pela recolha, preservação e análise de evidências digitais — relaciona-se diretamente com vários destes pilares, mas de forma especial com as \textbf{tecnologias} e as \textbf{organizações (processos e procedimentos)}.
+A \textbf{intervenção digital forense} - responsável pela recolha, preservação e análise de evidências digitais - relaciona-se diretamente com vários destes pilares, mas de forma especial com as \textbf{tecnologias} e as \textbf{organizações (processos e procedimentos)}.
 
 \begin{itemize}
 	\item \textbf{Tecnologias:} a recolha e preservação de evidências requerem ferramentas técnicas adequadas, como software de aquisição forense e mecanismos de hashing, que asseguram a integridade dos dados.
@@ -263,7 +330,7 @@ Assim, a intervenção digital forense concretiza a aplicação prática dos pil
 \newpage
 \subsection{Os Três Vetores da Segurança da Informação}
 A segurança da informação pode ser analisada segundo três vetores principais, também designados como as \textbf{três dimensões operacionais da segurança}: \textbf{Segurança Física}, \textbf{Segurança Humana} e \textbf{Segurança Lógica}.
-Estes vetores formam uma estrutura integrada que assegura a proteção da informação em todas as suas formas — material, humana e tecnológica — e encontram correspondência direta no enquadramento da \textbf{Segurança da Informação Classificada (SIC)}, conforme definido pela \textbf{Resolução do Conselho de Ministros n.º 5/1990}, que aprova a \textbf{SEGNAC4} (Sistema de Segurança Nacional de Classificação, Codificação e Salvaguarda de Informação Classificada).
+Estes vetores formam uma estrutura integrada que assegura a proteção da informação em todas as suas formas - material, humana e tecnológica - e encontram correspondência direta no enquadramento da \textbf{Segurança da Informação Classificada (SIC)}, conforme definido pela \textbf{Resolução do Conselho de Ministros n.º 5/1990}, que aprova a \textbf{SEGNAC4} (Sistema de Segurança Nacional de Classificação, Codificação e Salvaguarda de Informação Classificada).
 
 \subsubsection{Segurança Física}
 A segurança física tem como objetivo proteger as instalações, equipamentos e suportes de informação contra ameaças de natureza física, acidental ou intencional.
@@ -310,7 +377,7 @@ Estas atividades asseguram que a segurança da informação é gerida de forma s
 No domínio da \textbf{Cibersegurança}, a Governança é essencial para transformar políticas e orientações estratégicas em práticas concretas e auditáveis.
 Permite estabelecer mecanismos de responsabilização, definir papéis claros (por exemplo, CISO, gestores de risco, auditores) e integrar a gestão da segurança com os objetivos institucionais.
 
-No \textbf{combate ao cibercrime}, a governança contribui para a capacidade de resposta organizada a incidentes, garantindo rastreabilidade, preservação de evidências digitais e cumprimento de obrigações legais — aspetos fundamentais em processos de investigação e cooperação entre entidades públicas e privadas.
+No \textbf{combate ao cibercrime}, a governança contribui para a capacidade de resposta organizada a incidentes, garantindo rastreabilidade, preservação de evidências digitais e cumprimento de obrigações legais - aspetos fundamentais em processos de investigação e cooperação entre entidades públicas e privadas.
 
 \subsubsection{Correspondência com a RCM n.º 41/2018}
 A \textbf{Resolução do Conselho de Ministros n.º 41/2018}, que aprova a \textbf{Estratégia Nacional de Segurança do Ciberespaço (ENSCE)}, apresenta um enquadramento convergente com o conceito de governança definido nas normas ISO.

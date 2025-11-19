@@ -126,7 +126,7 @@
       \verb https://www.mitre.org/
       \endverb
     \endentry
-    \entry{attack}{online}{}{}
+    \entry{colent}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
            family={MITRE\bibnamedelima Corporation},
@@ -149,6 +149,191 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Tática Collection na Matriz Enterprise}
+      \field{title}{Collection, Tactic TA0009 - Enterprise | MITRE ATT\&CK®}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/tactics/TA0009/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/tactics/TA0009/
+      \endverb
+    \endentry
+    \entry{colmob}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={MITRE\bibnamedelima Corporation},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Tática Collection na Matriz Mobile}
+      \field{title}{Collection, Tactic TA0035 - Mobile | MITRE ATT\&CK®}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/tactics/TA0035/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/tactics/TA0035/
+      \endverb
+    \endentry
+    \entry{colics}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={MITRE\bibnamedelima Corporation},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Tática Collection na Matriz ICS}
+      \field{title}{Collection, Tactic TA0100 - ICS | MITRE ATT\&CK®}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/tactics/TA0100/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/tactics/TA0100/
+      \endverb
+    \endentry
+    \entry{ctis}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={MITRE\bibnamedelima Corporation},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{extraname}{5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial sobre Cyber Threat Information Sharing}
+      \field{title}{Making Security Measurable - Cyber Threat Information Sharing}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatsharing.html
+      \endverb
+      \verb{url}
+      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatsharing.html
+      \endverb
+    \endentry
+    \entry{cita}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={MITRE\bibnamedelima Corporation},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{extraname}{6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial sobre Cyber Threat Intelligence Analysis}
+      \field{title}{Making Security Measurable - Cyber Threat Intelligence Analysis}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatanalysis.html
+      \endverb
+      \verb{url}
+      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatanalysis.html
+      \endverb
+    \endentry
+    \entry{attack}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={MITRE\bibnamedelima Corporation},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{extraname}{7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{note}{Página Oficial do MITRE ATT\&CK}
       \field{title}{MITRE ATT\&CK® | MITRE ATT\&CK®}
       \field{urlday}{13}
@@ -161,6 +346,78 @@
       \endverb
       \verb{url}
       \verb https://attack.mitre.org/
+      \endverb
+    \endentry
+    \entry{midnighteclipse}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={MITRE\bibnamedelima Corporation},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{extraname}{8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Campanha Operation MidnightEclipse}
+      \field{title}{Operation MidnightEclipse | MITRE ATT\&CK®}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/campaigns/C0048/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/campaigns/C0048/
+      \endverb
+    \endentry
+    \entry{secinfo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Wikipedia sobre Segurança da Informação}
+      \field{title}{Information security - Wikipedia}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Information_security
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Information_security
       \endverb
     \endentry
   \enddatalist
@@ -272,7 +529,7 @@
       \verb https://www.mitre.org/
       \endverb
     \endentry
-    \entry{attack}{online}{}{}
+    \entry{colent}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
            family={MITRE\bibnamedelima Corporation},
@@ -295,6 +552,191 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Tática Collection na Matriz Enterprise}
+      \field{title}{Collection, Tactic TA0009 - Enterprise | MITRE ATT\&CK®}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/tactics/TA0009/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/tactics/TA0009/
+      \endverb
+    \endentry
+    \entry{colmob}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={MITRE\bibnamedelima Corporation},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Tática Collection na Matriz Mobile}
+      \field{title}{Collection, Tactic TA0035 - Mobile | MITRE ATT\&CK®}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/tactics/TA0035/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/tactics/TA0035/
+      \endverb
+    \endentry
+    \entry{colics}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={MITRE\bibnamedelima Corporation},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Tática Collection na Matriz ICS}
+      \field{title}{Collection, Tactic TA0100 - ICS | MITRE ATT\&CK®}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/tactics/TA0100/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/tactics/TA0100/
+      \endverb
+    \endentry
+    \entry{ctis}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={MITRE\bibnamedelima Corporation},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{extraname}{5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial sobre Cyber Threat Information Sharing}
+      \field{title}{Making Security Measurable - Cyber Threat Information Sharing}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatsharing.html
+      \endverb
+      \verb{url}
+      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatsharing.html
+      \endverb
+    \endentry
+    \entry{cita}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={MITRE\bibnamedelima Corporation},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{extraname}{6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial sobre Cyber Threat Intelligence Analysis}
+      \field{title}{Making Security Measurable - Cyber Threat Intelligence Analysis}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatanalysis.html
+      \endverb
+      \verb{url}
+      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatanalysis.html
+      \endverb
+    \endentry
+    \entry{attack}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={MITRE\bibnamedelima Corporation},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{extraname}{7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
       \field{note}{Página Oficial do MITRE ATT\&CK}
       \field{title}{MITRE ATT\&CK® | MITRE ATT\&CK®}
       \field{urlday}{13}
@@ -307,6 +749,78 @@
       \endverb
       \verb{url}
       \verb https://attack.mitre.org/
+      \endverb
+    \endentry
+    \entry{midnighteclipse}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={MITRE\bibnamedelima Corporation},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{extraname}{8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Campanha Operation MidnightEclipse}
+      \field{title}{Operation MidnightEclipse | MITRE ATT\&CK®}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/campaigns/C0048/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/campaigns/C0048/
+      \endverb
+    \endentry
+    \entry{secinfo}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Wikipedia sobre Segurança da Informação}
+      \field{title}{Information security - Wikipedia}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Information_security
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Information_security
       \endverb
     \endentry
   \enddatalist
