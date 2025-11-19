@@ -178,18 +178,19 @@ Este relatório apresenta o trabalho individual realizado para a unidade curricu
 \textit{Instituto Politécnico de Beja}. O objetivo principal é a análise de conceitos e normas
 (\textit{MITRE/ATT\&CK}, \textit{ISO 27000} e legislação nacional relevante).
 
-Em termos de estrutura, o relatório organiza-se em dois blocos complementares. O \textbf{Capítulo I (Grupo I)} explora em
+Em termos de estrutura, o relatório organiza-se em dois blocos complementares. O \textbf{Grupo I} explora em
 detalhe a área seleccionada do MITRE/ATT\&CK, incluindo análise de campanhas representativas, identificação de táticas,
 técnicas e procedimentos (TTPs) e comparação de técnicas entre as matrizes Enterprise, Mobile e ICS.
-O \textbf{Capítulo II (Grupo II)} analisa os fundamentos da segurança da informação - pilares, vetores e o conceito de
+O \textbf{Grupo II} analisa os fundamentos da segurança da informação - pilares, vetores e o conceito de
 \textbf{Governança} - estabelecendo ligações práticas às normas \textit{ISO/IEC} e à legislação nacional quando pertinente,
 e propondo recomendações operacionais para deteção, mitigação, resposta a incidentes e gestão de risco.
 
 A bibliografia e as fontes consultadas são apresentadas no final do documento e
-o relatório será disponibilizado no repositório GitHub (\cite{github}).\\
+o relatório será disponibilizado no repositório GitHub (\cite{github}).
 
 %---------------------------------------------------------------------------------------------------------------------------
-\section{Teoria}\label{theory}
+\newpage
+\section{Revisão Teórica}\label{theory}
 \subsection{MITRE}
 O MITRE (\cite{mitre}) é uma organização sem fins lucrativos que
 opera centros de pesquisa e desenvolvimento financiados pelo governo dos Estados Unidos.
@@ -240,16 +241,15 @@ evidência real. Esta área articula-se naturalmente com domínios como a partil
 de incidentes, contribuindo para uma postura de segurança mais preventiva e informada.
 
 %---------------------------------------------------------------------------------------------------------------------------
-\newpage
 \subsection{Cyber Threat Information Sharing}
 
 A área \textit{Cyber Threat Information Sharing} (\cite{ctis}) foca-se nos processos e mecanismos utilizados para partilhar
 informação sobre ameaças cibernéticas entre equipas, organizações e entidades externas. O objetivo principal é aumentar a
-capacidade coletiva de deteção, prevenção e resposta, garantindo que os indicadores de ataque, técnicas utilizadas pelos 
+capacidade coletiva de deteção, prevenção e resposta, garantindo que os indicadores de ataque, técnicas utilizadas pelos
 adversários e outros elementos relevantes chegam rapidamente aos intervenientes que deles necessitam.
 
-A partilha de informação de ameaças pode incluir \textbf{IOCs} (Indicators of Compromise), padrões de comportamento observados, 
-artefactos recolhidos em incidentes, ou relatórios de análise produzidos por equipas de \textit{Cyber Threat Intelligence}. 
+A partilha de informação de ameaças pode incluir \textbf{IOCs} (Indicators of Compromise), padrões de comportamento observados,
+artefactos recolhidos em incidentes, ou relatórios de análise produzidos por equipas de \textit{Cyber Threat Intelligence}.
 Esta partilha deve seguir formatos estruturados e normalizados que permitam interoperabilidade e automatização.
 
 Entre os sistemas e padrões mais utilizados destacam-se:
@@ -259,9 +259,9 @@ Entre os sistemas e padrões mais utilizados destacam-se:
 	\item \textbf{STIX} - linguagem para representar informação de ameaças de forma estruturada e interoperável.
 \end{itemize}
 
-A área \textit{Cyber Threat Information Sharing} complementa diretamente a \textit{Cyber Intelligence Threat Analysis}, 
-uma vez que a inteligência produzida pela análise de ameaças só alcança o seu valor máximo quando é partilhada de forma 
-eficiente e segura. Esta cooperação melhora a defesa global, reduz o tempo de resposta e promove uma postura 
+A área \textit{Cyber Threat Information Sharing} complementa diretamente a \textit{Cyber Intelligence Threat Analysis},
+uma vez que a inteligência produzida pela análise de ameaças só alcança o seu valor máximo quando é partilhada de forma
+eficiente e segura. Esta cooperação melhora a defesa global, reduz o tempo de resposta e promove uma postura
 mais colaborativa no combate ao cibercrime.
 
 %---------------------------------------------------------------------------------------------------------------------------
@@ -289,16 +289,16 @@ O software/ferramentas usadas incluiu:
 	\item GOST: criação de túneis reversos para comunicação com servidores de comando e controlo.
 \end{itemize}
 
-A campanha visou roubo de credenciais, dados de configuração do firewall e movimentação lateral dentro da rede, 
-mantendo persistência com cron jobs e backdoors. A mitigação recomendada incluiu patches do PAN-OS, monitorização de tráfego, 
+A campanha visou roubo de credenciais, dados de configuração do firewall e movimentação lateral dentro da rede,
+mantendo persistência com cron jobs e backdoors. A mitigação recomendada incluiu patches do PAN-OS, monitorização de tráfego,
 análise de logs e recolha de evidências forenses.
 
 %---------------------------------------------------------------------------------------------------------------------------
 \newpage
 \subsection{Tática Collection}
 
-A tática \textit{Collection} descreve a recolha de dados realizada por um adversário após comprometer um sistema. 
-Embora a tática seja comum às matrizes \textit{Enterprise}, \textit{Mobile} e \textit{ICS}, as técnicas associadas diferem 
+A tática \textit{Collection} descreve a recolha de dados realizada por um adversário após comprometer um sistema.
+Embora a tática seja comum às matrizes \textit{Enterprise}, \textit{Mobile} e \textit{ICS}, as técnicas associadas diferem
 significativamente devido às particularidades de cada ambiente.
 
 \subsubsection{Enterprise}
@@ -307,18 +307,19 @@ No ambiente \textit{Enterprise - TA0009} (\cite{colent}), a recolha de dados cen
 \subsubsection{Mobile}
 Na matriz \textit{Mobile - TA0035} (\cite{colmob}), a recolha é condicionada por mecanismos de segurança próprios de dispositivos móveis, tais como \textit{sandboxing}, permissões de aplicações e acesso limitado ao sistema de ficheiros. Assim, as técnicas incidem sobre dados pessoais e de aplicações, nomeadamente localização, contactos, mensagens, fotos, sensores e dados armazenados por aplicações móveis.
 
+\newpage
 \subsubsection{ICS}
 No domínio \textit{ICS - TA0100} (\cite{colics}), a recolha de informação está relacionada com processos industriais e sistemas de controlo. As técnicas visam obter dados operacionais provenientes de PLCs, sensores, actuadores, sistemas SCADA e parâmetros de controlo. Estes dados são críticos para compreender e manipular processos físicos.
 
 \subsubsection{Exemplos}
 Alguns exemplos de técnicas específicas para cada matriz incluem:
 \begin{itemize}
-	\item \textbf{Enterprise:} a técnica \textit{T1005 - Data from Local System} permite recolher ficheiros e credenciais armazenadas num sistema.
-	\item \textbf{Mobile:} a técnica \textit{T1409 - Access Stored Application Data} foca-se na recolha de dados de aplicações móveis, como mensagens ou bases de dados internas.
-	\item \textbf{ICS:} a técnica \textit{T0887 - Operation Information} permite ao adversário recolher dados operacionais de dispositivos industriais, como leituras de sensores ou estados de PLCs.
+	\item \textbf{Enterprise:} a técnica \textit{T1005 - Data from Local System}: permite recolher ficheiros e credenciais armazenadas num sistema.
+	\item \textbf{Mobile:} a técnica \textit{T1409 - Access Stored Application Data}: foca-se na recolha de dados de aplicações móveis, como mensagens ou bases de dados internas.
+	\item \textbf{ICS:} a técnica \textit{T0887 - Operation Information}: permite ao adversário recolher dados operacionais de dispositivos industriais, como leituras de sensores ou estados de PLCs.
 \end{itemize}
 
-Estas diferenças demonstram que, embora a tática seja comum, as técnicas variam devido à natureza 
+Estas diferenças demonstram que, embora a tática seja comum, as técnicas variam devido à natureza
 distinta dos ambientes e dos dados relevantes em cada matriz.
 
 
@@ -326,27 +327,27 @@ distinta dos ambientes e dos dados relevantes em cada matriz.
 \newpage
 \section{Grupo II}
 O presente capítulo tem como objetivo abordar os principais conceitos estruturantes da \textbf{Segurança da Informação}, tal como definidos no âmbito da unidade curricular de \textit{Fundamentos de Cibersegurança}.
-São analisados os pilares, vetores e princípios de governança que sustentam a proteção da informação e a gestão de riscos no contexto das organizações modernas, 
+São analisados os pilares, vetores e princípios de governança que sustentam a proteção da informação e a gestão de riscos no contexto das organizações modernas,
 com particular atenção às normas da família \textit{ISO/IEC 27000} (\cite{iso27000}) e à legislação nacional aplicável.
 
 %---------------------------------------------------------------------------------------------------------------------------
 
 \subsection{Os Quatro Pilares da Segurança da Informação}
-A segurança da informação, de acordo com uma visão abrangente e integrada, 
-assenta em quatro pilares fundamentais: \textbf{Tecnologias}, \textbf{Pessoas}, \textbf{Organizações} e \textbf{Segurança Física}. 
-Estes elementos, interdependentes entre si, formam a base sobre a qual as normas da família \textit{ISO/IEC 27000} 
+A segurança da informação, de acordo com uma visão abrangente e integrada,
+assenta em quatro pilares fundamentais: \textbf{Tecnologias}, \textbf{Pessoas}, \textbf{Organizações} e \textbf{Segurança Física}.
+Estes elementos, interdependentes entre si, formam a base sobre a qual as normas da família \textit{ISO/IEC 27000}
 (incluindo as versões mais recentes da \textit{ISO/IEC 27001:2022} (\cite{iso27001}) e \textit{ISO/IEC 27002:2022} (\cite{iso27002})) estruturam a gestão da segurança da informação.
 
 \subsubsection{Tecnologias}
-Este pilar corresponde ao conjunto de ferramentas, sistemas e mecanismos técnicos implementados para proteger a informação. 
+Este pilar corresponde ao conjunto de ferramentas, sistemas e mecanismos técnicos implementados para proteger a informação.
 Inclui medidas como o controlo de acessos, a encriptação, a gestão de vulnerabilidades, os sistemas de deteção e prevenção de intrusões, bem como políticas de \textit{backup} e recuperação.
-O foco é garantir que os recursos tecnológicos oferecem \textbf{confidencialidade}, \textbf{integridade} e \textbf{disponibilidade}, 
+O foco é garantir que os recursos tecnológicos oferecem \textbf{confidencialidade}, \textbf{integridade} e \textbf{disponibilidade},
 de acordo com os objetivos organizacionais e as boas práticas definidas pela \textit{ISO/IEC 27002:2022}.
 
 \subsubsection{Pessoas}
-As pessoas representam simultaneamente o \textbf{maior ativo} e o \textbf{elo mais vulnerável} da segurança da informação. 
+As pessoas representam simultaneamente o \textbf{maior ativo} e o \textbf{elo mais vulnerável} da segurança da informação.
 A consciencialização, a formação contínua e a definição clara de responsabilidades são essenciais para reduzir o risco humano.
-De acordo com as normas ISO, a cultura organizacional deve promover comportamentos seguros e uma compreensão clara das 
+De acordo com as normas ISO, a cultura organizacional deve promover comportamentos seguros e uma compreensão clara das
 políticas internas de segurança, prevenindo negligência, erro humano ou engenharia social.
 
 \subsubsection{Organizações (processos e procedimentos)}
@@ -361,10 +362,11 @@ Sem segurança física, qualquer sistema técnico ou processo organizacional fic
 
 \subsubsection{Pilar mais importante}
 Apesar da sua interdependência, o \textbf{pilar das pessoas} é frequentemente considerado o mais determinante.
-As tecnologias, políticas e infraestruturas só são eficazes se forem corretamente compreendidas e aplicadas pelos utilizadores. 
-O comportamento humano é o fator crítico que pode tanto reforçar como comprometer os restantes pilares, tornando a formação 
+As tecnologias, políticas e infraestruturas só são eficazes se forem corretamente compreendidas e aplicadas pelos utilizadores.
+O comportamento humano é o fator crítico que pode tanto reforçar como comprometer os restantes pilares, tornando a formação
 e a sensibilização indispensáveis à eficácia global da segurança da informação.
 
+\newpage
 \subsubsection{Ligação à Intervenção Digital Forense}
 A \textbf{intervenção digital forense} - responsável pela recolha, preservação e análise de evidências digitais - relaciona-se diretamente com vários destes pilares, mas de forma especial com as \textbf{tecnologias} e as \textbf{organizações (processos e procedimentos)}.
 
@@ -374,16 +376,16 @@ A \textbf{intervenção digital forense} - responsável pela recolha, preservaç
 	\item \textbf{Pessoas:} os peritos forenses e os técnicos de segurança devem agir de forma ética e tecnicamente rigorosa, assegurando a imparcialidade e a rastreabilidade das suas ações.
 \end{itemize}
 
-Assim, a intervenção digital forense concretiza a aplicação prática dos pilares da segurança da informação, 
-garantindo que a gestão de incidentes e a produção de prova digital são realizadas de forma segura, controlada e 
+Assim, a intervenção digital forense concretiza a aplicação prática dos pilares da segurança da informação,
+garantindo que a gestão de incidentes e a produção de prova digital são realizadas de forma segura, controlada e
 conforme às normas internacionais.
 
 %---------------------------------------------------------------------------------------------------------------------------
 \newpage
 \subsection{Os Três Vetores da Segurança da Informação}
 A segurança da informação pode ser analisada segundo três vetores principais, também designados como as \textbf{três dimensões operacionais da segurança}: \textbf{Segurança Física}, \textbf{Segurança Humana} e \textbf{Segurança Lógica}.
-Estes vetores formam uma estrutura integrada que assegura a proteção da informação em todas as suas formas - material, humana e tecnológica - e encontram 
-correspondência direta no enquadramento da \textbf{Segurança da Informação Classificada (SIC)}, conforme definido pela \textbf{Resolução do Conselho de Ministros n.º 5/1990} (\cite{rcm5-1990}), 
+Estes vetores formam uma estrutura integrada que assegura a proteção da informação em todas as suas formas - material, humana e tecnológica - e encontram
+correspondência direta no enquadramento da \textbf{Segurança da Informação Classificada (SIC)}, conforme definido pela \textbf{Resolução do Conselho de Ministros n.º 5/1990} (\cite{rcm5-1990}),
 que aprova a \textbf{SEGNAC4} (Sistema de Segurança Nacional de Classificação, Codificação e Salvaguarda de Informação Classificada).
 
 \subsubsection{Segurança Física}
@@ -411,12 +413,12 @@ Quando devidamente coordenadas, estas três dimensões garantem a \textbf{confid
 \newpage
 \subsection{O conceito de ‘Governança’}
 
-O conceito de \textbf{Governança} da Segurança da Informação e da Cibersegurança, conforme apresentado no âmbito deste curso e 
-nas normas da família \textit{ISO/IEC 27001}, representa o conjunto de práticas, responsabilidades e processos que asseguram 
+O conceito de \textbf{Governança} da Segurança da Informação e da Cibersegurança, conforme apresentado no âmbito deste curso e
+nas normas da família \textit{ISO/IEC 27001}, representa o conjunto de práticas, responsabilidades e processos que asseguram
 que a gestão da segurança é conduzida de forma estruturada, mensurável e alinhada com os objetivos estratégicos da organização.
 
-Mais especificamente, os controlos \textbf{8.15} e \textbf{8.16} da \textit{ISO/IEC 27001:2022} estabelecem as bases da governança, 
-determinando que as organizações devem \textbf{monitorizar, rever e melhorar continuamente} os mecanismos de segurança, 
+Mais especificamente, os controlos \textbf{8.15} e \textbf{8.16} da \textit{ISO/IEC 27001:2022} estabelecem as bases da governança,
+determinando que as organizações devem \textbf{monitorizar, rever e melhorar continuamente} os mecanismos de segurança,
 assegurando que as medidas implementadas permanecem eficazes e adequadas ao contexto operacional e às ameaças em evolução.
 
 \subsubsection{Conteúdo e Aplicação Prática}
@@ -429,14 +431,15 @@ A \textbf{Governança da Segurança da Informação} implica:
 	\item \textbf{Testar e rever os SOP (Standard Operating Procedures)}, garantindo que os procedimentos operacionais estão atualizados, coerentes e eficazes na mitigação de riscos.
 \end{itemize}
 
-Estas atividades asseguram que a segurança da informação é gerida de forma sistemática e não meramente reativa, 
+Estas atividades asseguram que a segurança da informação é gerida de forma sistemática e não meramente reativa,
 promovendo uma cultura de responsabilidade, conformidade e melhoria contínua.
 
+\newpage
 \subsubsection{Importância para a Cibersegurança e o Combate ao Cibercrime}
 No domínio da \textbf{Cibersegurança}, a Governança é essencial para transformar políticas e orientações estratégicas em práticas concretas e auditáveis.
 Permite estabelecer mecanismos de responsabilização, definir papéis claros (por exemplo, CISO, gestores de risco, auditores) e integrar a gestão da segurança com os objetivos institucionais.
 
-No \textbf{combate ao cibercrime}, a governança contribui para a capacidade de resposta organizada a incidentes, garantindo rastreabilidade, 
+No \textbf{combate ao cibercrime}, a governança contribui para a capacidade de resposta organizada a incidentes, garantindo rastreabilidade,
 preservação de evidências digitais e cumprimento de obrigações legais - aspetos fundamentais em processos de investigação e cooperação entre entidades públicas e privadas.
 
 \subsubsection{Correspondência com a RCM n.º 41/2018}
@@ -449,13 +452,30 @@ Ambos os documentos enfatizam:
 	\item A promoção de uma \textbf{cultura de segurança} transversal ao setor público, privado e académico.
 \end{itemize}
 
-Assim, pode afirmar-se que existe uma \textbf{correspondência direta} entre o conceito de Governança, tal como definido nas normas 
-\textit{ISO/IEC 27001:2022 (8.15/8.16)}, e os princípios orientadores da \textbf{RCM n.º 41/2018}, sendo ambos instrumentos complementares 
+Assim, pode afirmar-se que existe uma \textbf{correspondência direta} entre o conceito de Governança, tal como definido nas normas
+\textit{ISO/IEC 27001:2022 (8.15/8.16)}, e os princípios orientadores da \textbf{RCM n.º 41/2018}, sendo ambos instrumentos complementares
 na consolidação da cibersegurança e na prevenção e combate ao cibercrime em Portugal.
 
 %---------------------------------------------------------------------------------------------------------------------------
 \newpage
 \section{Conclusão}\label{con}
+
+Neste relatório procurei integrar teoria e prática no domínio da cibersegurança, explorando o framework MITRE/ATT\&CK, 
+mecanismos de partilha de informação (STIX/TAXII), conceitos de governança e princípios de investigação forense. 
+Ao longo do trabalho aprendi a mapear táticas, técnicas e procedimentos (TTPs) para contextos operacionais distintos, 
+a analisar campanhas reais — como a \textit{Operation MidnightEclipse} — e a correlacionar controlos técnicos com normas 
+da família \textit{ISO/IEC 27000} e enquadramentos nacionais (SEGNAC4, ENSCE).
+
+O desenvolvimento deste projeto reforçou competências práticas e metodológicas: recolha e organização de bibliografia, 
+análise crítica de artefactos técnicos, formulação de recomendações de deteção e mitigação, e a importância da cadeia de 
+custódia em intervenções forenses. Aprendi também a traduzir dados técnicos em inteligência acionável e a considerar as 
+diferenças entre matrizes Enterprise, Mobile e ICS ao propor medidas de defesa.
+
+Em termos pessoais, este trabalho aprofundou a minha capacidade de síntese, o pensamento crítico e a literacia técnica 
+necessária para comunicar resultados técnicos de forma estruturada e justificada. 
+
+Em suma, o relatório constitui uma base sólida que consolida os conhecimentos adquiridos e abre caminho para a sua 
+aplicação prática continuada e para investigação complementar em ciberinteligência.
 
 %---------------------------------------------------------------------------------------------------------------------------
 
