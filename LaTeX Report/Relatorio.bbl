@@ -19,6 +19,115 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{rcm41-2018}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa8017bc2db9a89fa0067e00910535be}{%
+           family={Diário\bibnamedelima da\bibnamedelima República},
+           familyi={D\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{fullhash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{fullhashraw}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{bibnamehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authorbibnamehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authornamehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authorfullhash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authorfullhashraw}{aa8017bc2db9a89fa0067e00910535be}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Resolução do Conselho de Ministros n.º 41/2018}
+      \field{title}{Resolução do Conselho de Ministros n.º 41/2018}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/41-2018-114937034
+      \endverb
+      \verb{url}
+      \verb https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/41-2018-114937034
+      \endverb
+    \endentry
+    \entry{rcm5-1990}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa8017bc2db9a89fa0067e00910535be}{%
+           family={Diário\bibnamedelima da\bibnamedelima República},
+           familyi={D\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{fullhash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{fullhashraw}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{bibnamehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authorbibnamehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authornamehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authorfullhash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authorfullhashraw}{aa8017bc2db9a89fa0067e00910535be}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Resolução do Conselho de Ministros n.º 5/1990}
+      \field{title}{Resolução do Conselho de Ministros n.º 5/1990}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/5-1990-307435
+      \endverb
+      \verb{url}
+      \verb https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/5-1990-307435
+      \endverb
+    \endentry
+    \entry{rgpd}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=feafc26a93bfd912acdaa051491623b4}{%
+           family={EUR-Lex},
+           familyi={E\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{fullhash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{fullhashraw}{feafc26a93bfd912acdaa051491623b4}
+      \strng{bibnamehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authorbibnamehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authornamehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authorfullhash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authorfullhashraw}{feafc26a93bfd912acdaa051491623b4}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial do Regulamento Geral sobre a Proteção de Dados (RGPD)}
+      \field{title}{Regulamento (UE) 2016/679 do Parlamento Europeu e do Conselho}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX%3A32016R0679
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX%3A32016R0679
+      \endverb
+    \endentry
     \entry{pagfc}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=018bc1b74e0d9d9f47e08c51e45a7cdb}{%
@@ -52,6 +161,117 @@
       \endverb
       \verb{url}
       \verb https://cms.ipbeja.pt/course/view.php?id=1164
+      \endverb
+    \endentry
+    \entry{iso27000}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Norma ISO/IEC 27000}
+      \field{title}{ISO/IEC 27000 Information security management systems — Overview and vocabulary}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/73906.html
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/73906.html
+      \endverb
+    \endentry
+    \entry{iso27001}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Norma ISO/IEC 27001}
+      \field{title}{ISO/IEC 27001 Information security, cybersecurity and privacy protection — Information security management systems — Requirements}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/27001
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/27001
+      \endverb
+    \endentry
+    \entry{iso27002}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Norma ISO/IEC 27002}
+      \field{title}{ISO/IEC 27002 Information security, cybersecurity and privacy protection — Code of practice for information security controls}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/75652.html
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/75652.html
       \endverb
     \endentry
     \entry{github}{online}{}{}
@@ -151,7 +371,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial da Tática Collection na Matriz Enterprise}
       \field{title}{Collection, Tactic TA0009 - Enterprise | MITRE ATT\&CK®}
-      \field{urlday}{13}
+      \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -188,7 +408,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial da Tática Collection na Matriz Mobile}
       \field{title}{Collection, Tactic TA0035 - Mobile | MITRE ATT\&CK®}
-      \field{urlday}{13}
+      \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -225,7 +445,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial da Tática Collection na Matriz ICS}
       \field{title}{Collection, Tactic TA0100 - ICS | MITRE ATT\&CK®}
-      \field{urlday}{13}
+      \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -262,7 +482,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial sobre Cyber Threat Information Sharing}
       \field{title}{Making Security Measurable - Cyber Threat Information Sharing}
-      \field{urlday}{13}
+      \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -299,7 +519,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial sobre Cyber Threat Intelligence Analysis}
       \field{title}{Making Security Measurable - Cyber Threat Intelligence Analysis}
-      \field{urlday}{13}
+      \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -373,7 +593,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial da Campanha Operation MidnightEclipse}
       \field{title}{Operation MidnightEclipse | MITRE ATT\&CK®}
-      \field{urlday}{13}
+      \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -422,6 +642,115 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{rcm41-2018}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa8017bc2db9a89fa0067e00910535be}{%
+           family={Diário\bibnamedelima da\bibnamedelima República},
+           familyi={D\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{fullhash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{fullhashraw}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{bibnamehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authorbibnamehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authornamehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authorfullhash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authorfullhashraw}{aa8017bc2db9a89fa0067e00910535be}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Resolução do Conselho de Ministros n.º 41/2018}
+      \field{title}{Resolução do Conselho de Ministros n.º 41/2018}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/41-2018-114937034
+      \endverb
+      \verb{url}
+      \verb https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/41-2018-114937034
+      \endverb
+    \endentry
+    \entry{rcm5-1990}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa8017bc2db9a89fa0067e00910535be}{%
+           family={Diário\bibnamedelima da\bibnamedelima República},
+           familyi={D\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{fullhash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{fullhashraw}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{bibnamehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authorbibnamehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authornamehash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authorfullhash}{aa8017bc2db9a89fa0067e00910535be}
+      \strng{authorfullhashraw}{aa8017bc2db9a89fa0067e00910535be}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Resolução do Conselho de Ministros n.º 5/1990}
+      \field{title}{Resolução do Conselho de Ministros n.º 5/1990}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/5-1990-307435
+      \endverb
+      \verb{url}
+      \verb https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/5-1990-307435
+      \endverb
+    \endentry
+    \entry{rgpd}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=feafc26a93bfd912acdaa051491623b4}{%
+           family={EUR-Lex},
+           familyi={E\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{fullhash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{fullhashraw}{feafc26a93bfd912acdaa051491623b4}
+      \strng{bibnamehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authorbibnamehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authornamehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authorfullhash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authorfullhashraw}{feafc26a93bfd912acdaa051491623b4}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial do Regulamento Geral sobre a Proteção de Dados (RGPD)}
+      \field{title}{Regulamento (UE) 2016/679 do Parlamento Europeu e do Conselho}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX%3A32016R0679
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX%3A32016R0679
+      \endverb
+    \endentry
     \entry{pagfc}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=018bc1b74e0d9d9f47e08c51e45a7cdb}{%
@@ -455,6 +784,117 @@
       \endverb
       \verb{url}
       \verb https://cms.ipbeja.pt/course/view.php?id=1164
+      \endverb
+    \endentry
+    \entry{iso27000}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Norma ISO/IEC 27000}
+      \field{title}{ISO/IEC 27000 Information security management systems — Overview and vocabulary}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/73906.html
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/73906.html
+      \endverb
+    \endentry
+    \entry{iso27001}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Norma ISO/IEC 27001}
+      \field{title}{ISO/IEC 27001 Information security, cybersecurity and privacy protection — Information security management systems — Requirements}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/27001
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/27001
+      \endverb
+    \endentry
+    \entry{iso27002}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={ISO},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorfullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Norma ISO/IEC 27002}
+      \field{title}{ISO/IEC 27002 Information security, cybersecurity and privacy protection — Code of practice for information security controls}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/75652.html
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/75652.html
       \endverb
     \endentry
     \entry{github}{online}{}{}
@@ -554,7 +994,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial da Tática Collection na Matriz Enterprise}
       \field{title}{Collection, Tactic TA0009 - Enterprise | MITRE ATT\&CK®}
-      \field{urlday}{13}
+      \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -591,7 +1031,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial da Tática Collection na Matriz Mobile}
       \field{title}{Collection, Tactic TA0035 - Mobile | MITRE ATT\&CK®}
-      \field{urlday}{13}
+      \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -628,7 +1068,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial da Tática Collection na Matriz ICS}
       \field{title}{Collection, Tactic TA0100 - ICS | MITRE ATT\&CK®}
-      \field{urlday}{13}
+      \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -665,7 +1105,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial sobre Cyber Threat Information Sharing}
       \field{title}{Making Security Measurable - Cyber Threat Information Sharing}
-      \field{urlday}{13}
+      \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -702,7 +1142,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial sobre Cyber Threat Intelligence Analysis}
       \field{title}{Making Security Measurable - Cyber Threat Intelligence Analysis}
-      \field{urlday}{13}
+      \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -776,7 +1216,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial da Campanha Operation MidnightEclipse}
       \field{title}{Operation MidnightEclipse | MITRE ATT\&CK®}
-      \field{urlday}{13}
+      \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}

@@ -3071,17 +3071,22 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">pagfc</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">pagfc</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">github</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">mitre</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">attack</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">secinfo</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">cita</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">ctis</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">midnighteclipse</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">colent</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">colmob</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">colics</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">github</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">mitre</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">attack</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">secinfo</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">cita</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">ctis</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">midnighteclipse</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">colent</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">colmob</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">colics</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">iso27000</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">iso27001</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">iso27002</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">rgpd</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">rcm5-1990</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">rcm41-2018</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
