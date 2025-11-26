@@ -115,7 +115,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial do Regulamento Geral sobre a Proteção de Dados (RGPD)}
-      \field{title}{Regulamento (UE) 2016/679 do Parlamento Europeu e do Conselho}
+      \field{title}{Regulamento (UE) 2016/679}
       \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
@@ -371,7 +371,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial da Tática Collection na Matriz Enterprise}
       \field{title}{Collection, Tactic TA0009 - Enterprise | MITRE ATT\&CK®}
-      \field{urlday}{19}
+      \field{urlday}{26}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -494,7 +494,7 @@
       \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatsharing.html
       \endverb
     \endentry
-    \entry{cita}{online}{}{}
+    \entry{attack}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
            family={MITRE\bibnamedelima Corporation},
@@ -512,43 +512,6 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradate}{6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Página Oficial sobre Cyber Threat Intelligence Analysis}
-      \field{title}{Making Security Measurable - Cyber Threat Intelligence Analysis}
-      \field{urlday}{19}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatanalysis.html
-      \endverb
-      \verb{url}
-      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatanalysis.html
-      \endverb
-    \endentry
-    \entry{attack}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
-           family={MITRE\bibnamedelima Corporation},
-           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
-      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
-      \field{extraname}{7}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -582,10 +545,10 @@
       \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
       \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
       \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
-      \field{extraname}{8}
+      \field{extraname}{7}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{8}
+      \field{extradate}{7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -603,6 +566,187 @@
       \endverb
       \verb{url}
       \verb https://attack.mitre.org/campaigns/C0048/
+      \endverb
+    \endentry
+    \entry{oasis}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7971f5bb0bc445669c151df3d7cf8ca}{%
+           family={OASIS\bibnamedelima Open},
+           familyi={O\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{fullhash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{fullhashraw}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{bibnamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorbibnamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authornamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorfullhash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorfullhashraw}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da OASIS Open}
+      \field{title}{OASIS Cyber Threat Intelligence (CTI) Technical Committee}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cti
+      \endverb
+      \verb{url}
+      \verb https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cti
+      \endverb
+    \endentry
+    \entry{stix2}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7971f5bb0bc445669c151df3d7cf8ca}{%
+           family={OASIS\bibnamedelima Open},
+           familyi={O\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{fullhash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{fullhashraw}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{bibnamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorbibnamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authornamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorfullhash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorfullhashraw}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Especificação OASIS STIX v2.x}
+      \field{title}{OASIS STIX Version 2.x Specification}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://oasis-open.github.io/cti-documentation/stix/intro
+      \endverb
+      \verb{url}
+      \verb https://oasis-open.github.io/cti-documentation/stix/intro
+      \endverb
+    \endentry
+    \entry{taxii2}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7971f5bb0bc445669c151df3d7cf8ca}{%
+           family={OASIS\bibnamedelima Open},
+           familyi={O\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{fullhash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{fullhashraw}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{bibnamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorbibnamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authornamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorfullhash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorfullhashraw}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \field{extraname}{3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Especificação OASIS TAXII v2.x}
+      \field{title}{OASIS TAXII Version 2.x Specification}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://oasis-open.github.io/cti-documentation/taxii/intro
+      \endverb
+      \verb{url}
+      \verb https://oasis-open.github.io/cti-documentation/taxii/intro
+      \endverb
+    \endentry
+    \entry{stix}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=061d7deaf198684bfdf69ec3e0d21c38}{%
+           family={STIX\bibnamedelima Project},
+           familyi={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{fullhash}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{fullhashraw}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{bibnamehash}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{authorbibnamehash}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{authornamehash}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{authorfullhash}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{authorfullhashraw}{061d7deaf198684bfdf69ec3e0d21c38}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial do STIX Project}
+      \field{title}{STIX - Structured Threat Information Expression}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://stixproject.github.io/
+      \endverb
+      \verb{url}
+      \verb https://stixproject.github.io/
+      \endverb
+    \endentry
+    \entry{taxii}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6622472ca329cd47e46efb96e1f55267}{%
+           family={Taxii\bibnamedelima Project},
+           familyi={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6622472ca329cd47e46efb96e1f55267}
+      \strng{fullhash}{6622472ca329cd47e46efb96e1f55267}
+      \strng{fullhashraw}{6622472ca329cd47e46efb96e1f55267}
+      \strng{bibnamehash}{6622472ca329cd47e46efb96e1f55267}
+      \strng{authorbibnamehash}{6622472ca329cd47e46efb96e1f55267}
+      \strng{authornamehash}{6622472ca329cd47e46efb96e1f55267}
+      \strng{authorfullhash}{6622472ca329cd47e46efb96e1f55267}
+      \strng{authorfullhashraw}{6622472ca329cd47e46efb96e1f55267}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial do TAXII Project}
+      \field{title}{TAXII - Trusted Automated eXchange of Indicator Information}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://taxiiproject.github.io/
+      \endverb
+      \verb{url}
+      \verb https://taxiiproject.github.io/
       \endverb
     \endentry
     \entry{secinfo}{online}{}{}
@@ -738,7 +882,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial do Regulamento Geral sobre a Proteção de Dados (RGPD)}
-      \field{title}{Regulamento (UE) 2016/679 do Parlamento Europeu e do Conselho}
+      \field{title}{Regulamento (UE) 2016/679}
       \field{urlday}{19}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
@@ -994,7 +1138,7 @@
       \field{labeltitlesource}{title}
       \field{note}{Página Oficial da Tática Collection na Matriz Enterprise}
       \field{title}{Collection, Tactic TA0009 - Enterprise | MITRE ATT\&CK®}
-      \field{urlday}{19}
+      \field{urlday}{26}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2025}
@@ -1117,7 +1261,7 @@
       \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatsharing.html
       \endverb
     \endentry
-    \entry{cita}{online}{}{}
+    \entry{attack}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
            family={MITRE\bibnamedelima Corporation},
@@ -1135,43 +1279,6 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradate}{6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Página Oficial sobre Cyber Threat Intelligence Analysis}
-      \field{title}{Making Security Measurable - Cyber Threat Intelligence Analysis}
-      \field{urlday}{19}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatanalysis.html
-      \endverb
-      \verb{url}
-      \verb https://makingsecuritymeasurable.mitre.org/directory/areas/threatanalysis.html
-      \endverb
-    \endentry
-    \entry{attack}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=74ba159b7a793d67eb4e566a38793238}{%
-           family={MITRE\bibnamedelima Corporation},
-           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
-      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
-      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
-      \field{extraname}{7}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1205,10 +1312,10 @@
       \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
       \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
       \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
-      \field{extraname}{8}
+      \field{extraname}{7}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{8}
+      \field{extradate}{7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1226,6 +1333,187 @@
       \endverb
       \verb{url}
       \verb https://attack.mitre.org/campaigns/C0048/
+      \endverb
+    \endentry
+    \entry{oasis}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7971f5bb0bc445669c151df3d7cf8ca}{%
+           family={OASIS\bibnamedelima Open},
+           familyi={O\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{fullhash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{fullhashraw}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{bibnamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorbibnamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authornamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorfullhash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorfullhashraw}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da OASIS Open}
+      \field{title}{OASIS Cyber Threat Intelligence (CTI) Technical Committee}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cti
+      \endverb
+      \verb{url}
+      \verb https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cti
+      \endverb
+    \endentry
+    \entry{stix2}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7971f5bb0bc445669c151df3d7cf8ca}{%
+           family={OASIS\bibnamedelima Open},
+           familyi={O\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{fullhash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{fullhashraw}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{bibnamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorbibnamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authornamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorfullhash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorfullhashraw}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Especificação OASIS STIX v2.x}
+      \field{title}{OASIS STIX Version 2.x Specification}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://oasis-open.github.io/cti-documentation/stix/intro
+      \endverb
+      \verb{url}
+      \verb https://oasis-open.github.io/cti-documentation/stix/intro
+      \endverb
+    \endentry
+    \entry{taxii2}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7971f5bb0bc445669c151df3d7cf8ca}{%
+           family={OASIS\bibnamedelima Open},
+           familyi={O\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{fullhash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{fullhashraw}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{bibnamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorbibnamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authornamehash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorfullhash}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \strng{authorfullhashraw}{a7971f5bb0bc445669c151df3d7cf8ca}
+      \field{extraname}{3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial da Especificação OASIS TAXII v2.x}
+      \field{title}{OASIS TAXII Version 2.x Specification}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://oasis-open.github.io/cti-documentation/taxii/intro
+      \endverb
+      \verb{url}
+      \verb https://oasis-open.github.io/cti-documentation/taxii/intro
+      \endverb
+    \endentry
+    \entry{stix}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=061d7deaf198684bfdf69ec3e0d21c38}{%
+           family={STIX\bibnamedelima Project},
+           familyi={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{fullhash}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{fullhashraw}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{bibnamehash}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{authorbibnamehash}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{authornamehash}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{authorfullhash}{061d7deaf198684bfdf69ec3e0d21c38}
+      \strng{authorfullhashraw}{061d7deaf198684bfdf69ec3e0d21c38}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial do STIX Project}
+      \field{title}{STIX - Structured Threat Information Expression}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://stixproject.github.io/
+      \endverb
+      \verb{url}
+      \verb https://stixproject.github.io/
+      \endverb
+    \endentry
+    \entry{taxii}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6622472ca329cd47e46efb96e1f55267}{%
+           family={Taxii\bibnamedelima Project},
+           familyi={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6622472ca329cd47e46efb96e1f55267}
+      \strng{fullhash}{6622472ca329cd47e46efb96e1f55267}
+      \strng{fullhashraw}{6622472ca329cd47e46efb96e1f55267}
+      \strng{bibnamehash}{6622472ca329cd47e46efb96e1f55267}
+      \strng{authorbibnamehash}{6622472ca329cd47e46efb96e1f55267}
+      \strng{authornamehash}{6622472ca329cd47e46efb96e1f55267}
+      \strng{authorfullhash}{6622472ca329cd47e46efb96e1f55267}
+      \strng{authorfullhashraw}{6622472ca329cd47e46efb96e1f55267}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página Oficial do TAXII Project}
+      \field{title}{TAXII - Trusted Automated eXchange of Indicator Information}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://taxiiproject.github.io/
+      \endverb
+      \verb{url}
+      \verb https://taxiiproject.github.io/
       \endverb
     \endentry
     \entry{secinfo}{online}{}{}

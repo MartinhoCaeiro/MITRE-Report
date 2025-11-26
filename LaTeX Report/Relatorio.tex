@@ -211,34 +211,7 @@ O presente capítulo procede à análise detalhada das áreas selecionadas do MI
 informação técnica em inteligência acionável para operações de defesa. Pretende-se identificar e descrever as táticas,
 técnicas e procedimentos (TTPs) mais relevantes, analisar campanhas representativas e comparar técnicas entre as diferentes
 matrizes (Enterprise, Mobile e ICS). O capítulo integra estudos de caso, avaliação de ferramentas e recomendações práticas
-para deteção, mitigação e resposta a incidentes, promovendo a ligação entre a análise de ameaças e as medidas operacionais.
-
-%---------------------------------------------------------------------------------------------------------------------------
-\subsection{Cyber Intelligence Threat Analysis}
-
-A área \textit{Cyber Intelligence Threat Analysis} (\cite{cita}) centra-se na recolha, organização e análise estruturada de
-informação sobre ameaças cibernéticas, com o objetivo de produzir \textbf{inteligência acionável} que apoie a defesa,
-a deteção e a resposta a incidentes. Esta análise procura compreender os adversários, as suas motivações, capacidades e
-métodos de ataque, permitindo antecipar comportamentos e melhorar o nível de proteção das organizações.
-
-A análise de ameaças baseia-se na identificação de grupos e atores maliciosos,
-no estudo das suas \textbf{táticas, técnicas e procedimentos (TTPs)}, e na correlação de indicadores de
-compromisso e outros artefactos de ataque. Para isso, a área utiliza várias estruturas desenvolvidas pelo MITRE,
-entre as quais se destacam:
-
-\begin{itemize}
-	\item \textbf{STIX} - representação estruturada de ameaças e observáveis cibernéticos.
-	\item \textbf{CVE} - identificação de vulnerabilidades conhecidas.
-	\item \textbf{CPE} - descrição de plataformas e sistemas afetados.
-	\item \textbf{CWE} - categorização de fraquezas de software.
-	\item \textbf{MAEC} - caracterização de malware.
-	\item \textbf{CAPEC} - descrição de padrões de ataque observados.
-\end{itemize}
-
-A \textit{Cyber Intelligence Threat Analysis} é fundamental para transformar dados técnicos dispersos em conhecimento útil,
-permitindo reforçar mecanismos de deteção, apoiar decisões de segurança e orientar a resposta a incidentes com base em
-evidência real. Esta área articula-se naturalmente com domínios como a partilha de informação de ameaças e a coordenação
-de incidentes, contribuindo para uma postura de segurança mais preventiva e informada.
+para deteção, mitigação e resposta a incidentes, promovendo a ligação entre a análise de ameaças e as medidas operacionais.\\\\
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Cyber Threat Information Sharing}
@@ -252,17 +225,38 @@ A partilha de informação de ameaças pode incluir \textbf{IOCs} (Indicators of
 artefactos recolhidos em incidentes, ou relatórios de análise produzidos por equipas de \textit{Cyber Threat Intelligence}.
 Esta partilha deve seguir formatos estruturados e normalizados que permitam interoperabilidade e automatização.
 
-Entre os sistemas e padrões mais utilizados destacam-se:
+Entre os sistemas e padrões mais utilizados destacam-se o seguintes:
 
+\newpage
+\subsubsection{TAXII}
+O \textbf{Trusted Automated eXchange of Indicator Information} (\cite{taxii}) é uma framework comunitária que define conceitos,
+protocolos e formatos de mensagem para a partilha segura, eficiente e automatizada de informação de ameaças.  
+O TAXII especifica a forma como dados estruturados podem ser enviados e recebidos entre
+plataformas, permitindo que organizações consumam e disponibilizem inteligência de forma padronizada.
+
+Existem dois modelos principais de operação no TAXII:
 \begin{itemize}
-	\item \textbf{TAXII} - framework comunitário que define conceitos, protocolos e trocas de mensagens para partilha segura e automatizada de informação de ameaças.
-	\item \textbf{STIX} - linguagem para representar informação de ameaças de forma estruturada e interoperável.
+    \item \textit{Collections} - repositórios lógicos onde conjuntos de dados de ciberameaças são armazenados e disponibilizados.
+    \item \textit{Channels} - mecanismos de comunicações pub/sub que permitem fluxos contínuos de informação.
 \end{itemize}
 
-A área \textit{Cyber Threat Information Sharing} complementa diretamente a \textit{Cyber Intelligence Threat Analysis},
-uma vez que a inteligência produzida pela análise de ameaças só alcança o seu valor máximo quando é partilhada de forma
-eficiente e segura. Esta cooperação melhora a defesa global, reduz o tempo de resposta e promove uma postura
-mais colaborativa no combate ao cibercrime.
+Além disso, o TAXII suporta autenticação, controlo de acesso e transportes seguros, garantindo que apenas entidades autorizadas
+podem aceder à informação partilhada.
+
+\subsubsection{STIX}
+O \textbf{Structured Threat Information eXpression} (\cite{stix}) é uma linguagem desenvolvida para representar informação de ameaças
+de forma estruturada, permitindo interoperabilidade entre sistemas e facilitando a automatização de processos de deteção e
+resposta.
+
+O STIX permite descrever não apenas IOCs, mas também:
+\begin{itemize}
+    \item \textbf{TTPs (Tactics, Techniques and Procedures)} - modelos que representam comportamentos e padrões de ataque.
+    \item \textbf{Entidades envolvidas} - como atores de ameaça, campanhas e intrusões conhecidas.
+    \item \textbf{Relações entre objetos} - possibilitando análises avançadas, como correlação de indicadores e identificação de cadeias de ataque.
+\end{itemize}
+
+A versão mais recente, STIX 2.x (\cite{stix2}), foi otimizada para compatibilidade com TAXII 2.x (\cite{taxii2}) e para simplificar o modelo de dados,
+permitindo uma representação mais clara e eficiente da inteligência partilhada, estas são agora geridas pela OASIS (\cite{oasis}).
 
 %---------------------------------------------------------------------------------------------------------------------------
 \newpage
@@ -463,7 +457,7 @@ na consolidação da cibersegurança e na prevenção e combate ao cibercrime em
 Neste relatório procurei integrar teoria e prática no domínio da cibersegurança, explorando o framework MITRE/ATT\&CK, 
 mecanismos de partilha de informação (STIX/TAXII), conceitos de governança e princípios de investigação forense. 
 Ao longo do trabalho aprendi a mapear táticas, técnicas e procedimentos (TTPs) para contextos operacionais distintos, 
-a analisar campanhas reais — como a \textit{Operation MidnightEclipse} — e a correlacionar controlos técnicos com normas 
+a analisar campanhas reais - como a \textit{Operation MidnightEclipse} - e a correlacionar controlos técnicos com normas 
 da família \textit{ISO/IEC 27000} e enquadramentos nacionais (SEGNAC4, ENSCE).
 
 O desenvolvimento deste projeto reforçou competências práticas e metodológicas: recolha e organização de bibliografia, 
