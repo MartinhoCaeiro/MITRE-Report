@@ -39,5 +39,5 @@ Remove-Item "LaTeX Report\*.aux","LaTeX Report\*.bbl","LaTeX Report\*.blg","LaTe
 ```
 
 **License**
-- **License:**: This repository is licensed under the GNU General Public License v3.0 (GPL-3.0).
+- **License:** This repository is licensed under the GNU General Public License v3.0 (GPL-3.0).
 
