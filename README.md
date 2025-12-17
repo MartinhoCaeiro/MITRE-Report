@@ -1,17 +1,17 @@
 **MITRE-Report**
 
-- **Project:**: A LaTeX report about MITRE/ATT&CK, cyber threat intelligence, governance, and digital forensics. The main document is `LaTeX Report/Relatorio.tex`.
-- **Author:**: Martinho José Novo Caeiro
+- **Project:** A LaTeX report about MITRE/ATT&CK, cyber threat intelligence, governance, and digital forensics. The main document is `LaTeX Report/Relatorio.tex`.
+- **Author:** Martinho José Novo Caeiro
 
 **Contents**
-- **Main report:**: `LaTeX Report/Relatorio.tex`
-- **Bibliography:**: `LaTeX Report/Recursos/referencias.bib`
-- **Logos and resources:**: `LaTeX Report/Recursos/Logos/`
+- **Main report:** `LaTeX Report/Relatorio.tex`
+- **Bibliography:** `LaTeX Report/Recursos/referencias.bib`
+- **Logos and resources:** `LaTeX Report/Recursos/Logos/`
 
 **Requirements**
-- **TeX distribution:**: TeX Live or MiKTeX (with `pdflatex`).
-- **Biber:**: Required to process the bibliography (`biber`).
-- **Optional:**: `latexmk` for a single-command build workflow.
+- **TeX distribution:** TeX Live or MiKTeX (with `pdflatex`).
+- **Biber:** Required to process the bibliography (`biber`).
+- **Optional:** `latexmk` for a single-command build workflow.
 
 **Build (Windows PowerShell)**
 - Minimal manual sequence (works with MiKTeX/TeX Live + Biber):
